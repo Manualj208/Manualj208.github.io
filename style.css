@@ -1,4 +1,4 @@
-/* ===== Manual J USA â Global Styles ===== */
+/* ===== Manual J USA — Global Styles ===== */
 /* Brand Colors: Navy #1B3A5C, Bright Blue #2E75B6, Orange #E87722, White #FFF, Light Gray #F5F5F5, Dark Gray #333 */
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -247,7 +247,7 @@ img { max-width: 100%; height: auto; }
   font-family: inherit;
 }
 .faq-question::after { content: '+'; font-size: 1.5rem; color: var(--blue); transition: transform 0.3s; }
-.faq-item.active .faq-question::after { content: 'â'; }
+.faq-item.active .faq-question::after { content: '−'; }
 .faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.3s ease; }
 .faq-answer-inner { padding: 0 0 20px; color: var(--text); line-height: 1.7; }
 
